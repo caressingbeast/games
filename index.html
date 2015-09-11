@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="games">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Games</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> <!-- load jquery 2.1.4 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.min.js"></script> <!-- load angular 1.4.5 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script> <!-- load angular-route -->
+    <script src="js/app.js"></script> <!-- load app -->
+    <script src="js/routes.js"></script> <!-- load routes -->
+    <script src="js/services/game.js"></script> <!-- load game service -->
+    <script src="js/services/score.js"></script> <!-- load score service -->
+    <script src="js/controllers/main.js"></script> <!-- load main controller -->
+    <script src="js/controllers/matching.js"></script> <!-- load matching game controller -->
+  </head>
+  <body>
+    <div class="container">
+      <div ng-view></div>
+    </div>
+  </body>
+</html>
