@@ -1,0 +1,21 @@
+.game-board {
+  margin: 0 -10px -10px 0;
+  overflow: hidden;
+}
+
+.memory-card {
+  background: #555;
+  border: 1px solid #555;
+  float: left;
+  margin: 0 10px 10px 0;
+  width: 100px; height: 100px;
+  color: #555;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 104px;
+  text-align: center;
+}
+
+.memory-card.selected {
+  background: #fff;
+}
