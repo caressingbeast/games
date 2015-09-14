@@ -4,12 +4,12 @@
   width: 900px;
 }
 
-.memory-wrapper {
+.memory .wrapper {
   margin: 0 -15px -15px 0;
   padding: 0;
 }
 
-.memory-wrapper li {
+.memory .wrapper div {
   background: #555;
   border: 1px solid #555;
   cursor: pointer;
@@ -25,6 +25,24 @@
   text-align: center;
 }
 
-.memory-wrapper .selected {
+.memory .wrapper .selected {
   background: #fff;
+}
+
+.letter-matching .wrapper .uppercase {
+  font-size: 200px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.letter-matching .wrapper .lowercase {
+  text-align: center;
+}
+
+.letter-matching .lowercase div {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 20px;
+  padding: 0 30px;
+  font-size: 75px;
 }

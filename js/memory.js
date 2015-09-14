@@ -11,7 +11,7 @@
 
       // cache elements
       this.$board = $('#game-board');
-      this.$wrapper = this.$board.find('.memory-wrapper');
+      this.$wrapper = this.$board.find('.wrapper');
 
       // init variables
       this.boardDisabled = false;
@@ -58,14 +58,14 @@
 
       for (var i = 0; i < this.cards.length; i++) {
         var value = this.cards[i];
-        output += '<li data-value="' + value + '">' + value + '</li>';
+        output += '<div data-value="' + value + '">' + value + '</div>';
       }
 
       this.$wrapper.html(output);
     },
 
     bindClickEvents: function () {
-      this.$wrapper.on('click', 'li', this.toggleCard);
+      this.$wrapper.on('click', 'div', this.toggleCard);
     },
 
     toggleCard: function () {
