@@ -14,6 +14,7 @@
     "alert",
     "window",
     "console",
-    "angular"
+    "Audio",
+    "setTimeout"
   ]
 }
