@@ -1,21 +1,30 @@
-.game-board {
-  margin: 0 -10px -10px 0;
-  overflow: hidden;
+#game-board {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 900px;
 }
 
-.memory-card {
+.memory-wrapper {
+  margin: 0 -15px -15px 0;
+  padding: 0;
+}
+
+.memory-wrapper li {
   background: #555;
   border: 1px solid #555;
+  cursor: pointer;
   float: left;
-  margin: 0 10px 10px 0;
-  width: 100px; height: 100px;
+  list-style: none;
+  margin: 0 15px 15px 0;
+  padding: 0;
+  width: 135.5px; height: 135.5px;
   color: #555;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
-  line-height: 104px;
+  line-height: 135.5px;
   text-align: center;
 }
 
-.memory-card.selected {
+.memory-wrapper .selected {
   background: #fff;
 }
